@@ -1,16 +1,23 @@
 package br.com.calculadora.dto;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;
-import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.util.List;
 
 @Builder
-@Data
-@JsonInclude( JsonInclude.Include.NON_NULL )
+@Getter
+@Setter
 public class NumeroMagicoDTO {
 
     List< Long[] > listaRanges;
 
+    public NumeroMagicoDTO() {
+    }
+
+    public NumeroMagicoDTO( List< Long[] > listaRanges ) {
+        this.listaRanges = listaRanges;
+    }
 }
