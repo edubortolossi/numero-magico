@@ -1,7 +1,7 @@
-package br.com.campanha.controller;
+package br.com.calculadora.controller;
 
-import br.com.campanha.dto.NumeroMagicoDTO;
-import br.com.campanha.service.CalculadoraService;
+import br.com.calculadora.dto.NumeroMagicoDTO;
+import br.com.calculadora.service.CalculadoraService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

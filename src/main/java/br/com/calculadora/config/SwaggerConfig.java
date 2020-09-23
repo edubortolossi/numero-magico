@@ -1,4 +1,4 @@
-package br.com.campanha.config;
+package br.com.calculadora.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

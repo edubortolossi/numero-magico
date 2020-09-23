@@ -1,4 +1,4 @@
-package br.com.campanha.dto;
+package br.com.calculadora.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;

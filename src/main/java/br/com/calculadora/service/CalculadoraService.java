@@ -1,6 +1,6 @@
-package br.com.campanha.service;
+package br.com.calculadora.service;
 
-import br.com.campanha.dto.NumeroMagicoDTO;
+import br.com.calculadora.dto.NumeroMagicoDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.atomic.AtomicInteger;

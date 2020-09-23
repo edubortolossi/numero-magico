@@ -1,6 +1,6 @@
-package br.com.campanha;
+package br.com.calculadora;
 
-import br.com.campanha.dto.NumeroMagicoDTO;
+import br.com.calculadora.dto.NumeroMagicoDTO;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;
